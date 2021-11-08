@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Favorite Things</title>
+</head>
+<body>
+  <div class="container">
+    <h1>List some favorite things!</h1>
+    <form id="favorite-things">
+      <div class="form-group">
+        <label for="pizza">List your favorite pizza toppings:</label>
+        <ol>
+          <li><input type="text" class="form-control" id="pizza1"></li>
+          <li><input type="text" class="form-control" id="pizza2"></li>
+          <li><input type="text" class="form-control" id="pizza3"></li>
+        </ol>
+      </div>
+      <div class="form-group">
+        <label for="bands">List your favorite bands:</label>
+        <ol>
+          <li><input type="text" class="form-control" id="bands1"></li>
+          <li><input type="text" class="form-control" id="bands2"></li>
+          <li><input type="text" class="form-control" id="bands3"></li>
+        </ol>
+      </div>
+      <div class="form-group">
+        <label for="animals">List your favorite animals:</label>
+        <ol>
+          <li><input type="text" class="form-control" id="animals1"></li>
+          <li><input type="text" class="form-control" id="animals2"></li>
+          <li><input type="text" class="form-control" id="animals3"></li>
+        </ol>
+      </div>
+      <button type="submit" class="btn btn-warning">Submit</button>
+    </form>
+    <div id="arrlist">
+      <ul>
+        <li id="fav1"></li>
+        <li id="fav2"></li>
+        <li id="fav3"></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
