@@ -16,7 +16,7 @@ $(document).ready(function() {
     
     $("#arrlist").show();
     $("#fav1").text(favsArray[0]);
-    $("#fav2").text(favsArray[5]);
+    $("#fav2").text(favsArray[4]);
     $("#fav3").text(favsArray[7]);
   });
   
