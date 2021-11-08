@@ -14,6 +14,7 @@ $(document).ready(function() {
     favsArray.push($("#animals2").val());
     favsArray.push($("#animals3").val());
     
+    $("#arrlist").show();
     $("#fav1").text(favsArray[0]);
     $("#fav2").text(favsArray[5]);
     $("#fav3").text(favsArray[7]);
